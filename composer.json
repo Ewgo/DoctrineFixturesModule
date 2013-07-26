@@ -1,0 +1,15 @@
+{
+    "name": "ewgo/doctrine-fixtures-module",
+    "description": "Zend Framework 2 integration with the Doctrine Fixtures library",
+    "keywords": ["zf2", "doctrine", "fixtures"],
+    "type": "zf2-module",
+    "require": {
+        "zendframework/zendframework": "2.*",
+        "doctrine/data-fixtures": "dev-master",
+        "doctrine/doctrine-module": "~0.7"
+    },
+    "autoload": {
+        "psr-0": { "EwgoDoctrineFixtures": "src/" },
+        "classmap": [ "./Module.php" ]
+    }
+}
